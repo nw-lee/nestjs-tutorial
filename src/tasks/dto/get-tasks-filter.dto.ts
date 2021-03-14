@@ -1,5 +1,5 @@
 import { IsIn, IsNotEmpty, IsOptional } from 'class-validator';
-import { TaskStatus } from '../task.model';
+import { TaskStatus } from '../task-status.enum';
 
 export class GetTasksFilterDto {
   // It is OK when the query status is not, but if query exists, status must be in TaskStatus.
